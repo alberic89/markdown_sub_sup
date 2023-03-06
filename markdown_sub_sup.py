@@ -13,7 +13,7 @@ class MarkdownSubSup(Extension):
 
 
 def makeExtension(**kwargs):
-    return MarkdownMark(**kwargs)
+    return MarkdownSubSup(**kwargs)
 
 
 if __name__ == '__main__':
