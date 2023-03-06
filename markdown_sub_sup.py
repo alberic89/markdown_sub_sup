@@ -1,8 +1,8 @@
 from markdown.extensions import Extension
 from markdown.inlinepatterns import SimpleTagInlineProcessor
 
-SUP_RE = r"(\^)([^\^]+)\2"
-SUB_RE = r"(\~)([^\~]+)\2"
+SUP_RE = r"(\^)([^^].+?[^^])(\^)"
+SUB_RE = r"(\~)([^~].+?[^~])(\~)"
 
 class MarkdownSubSup(Extension):
     def extendMarkdown(self, md):
