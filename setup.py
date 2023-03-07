@@ -4,7 +4,7 @@ from pathlib import Path
 
 setup(
     name="markdown_sub_sup",
-    version="0.0.1",
+    version="0.0.2",
     license="LGPLv3",
     url="https://github.com/alberic89/markdown_sub_sup",
     description="A markdown python extension for use <sub> and <sup> tags with ^text^ and ~text~.",
